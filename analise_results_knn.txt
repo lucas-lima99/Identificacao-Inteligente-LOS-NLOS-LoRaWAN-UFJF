@@ -1,0 +1,1345 @@
+--- Modelo K Nearest Neighbors --- 
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 15 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 13.437 +/- 4.970
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 15 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 5.826 +/- 4.876
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 15 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 7.237 +/- 4.936
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 30 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 9.993 +/- 4.689
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 30 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 2.199 +/- 3.371
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 30 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 17.238 +/- 15.784
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 50 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 12.244 +/- 2.257
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 50 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 16.028 +/- 4.347
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 50 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 9.639 +/- 6.572
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 100 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 2.320 +/- 3.586
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 100 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 6.069 +/- 7.460
+Para n_neighbor = 2, weight = uniform, algorithm = auto, leaf_size = 100 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 9.392 +/- 6.762
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 3.537 +/- 5.012
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 13.803 +/- 2.750
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 11.787 +/- 5.291
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 15.478 +/- 3.045
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 5.602 +/- 6.607
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 17.167 +/- 4.062
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 6.606 +/- 4.074
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 3.326 +/- 5.441
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 15.485 +/- 2.502
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 4.347 +/- 2.864
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 8.238 +/- 4.757
+Para n_neighbor = 2, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 13.953 +/- 8.315
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 5.816 +/- 7.859
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 9.307 +/- 6.219
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 5.209 +/- 4.815
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 9.706 +/- 4.244
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 6.582 +/- 4.982
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 6.792 +/- 5.249
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 11.280 +/- 7.414
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 9.169 +/- 6.304
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 9.501 +/- 7.806
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 10.701 +/- 8.018
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 6.316 +/- 8.400
+Para n_neighbor = 2, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 8.139 +/- 5.950
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 15 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 70.038 +/- 96.652
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 15 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 41.505 +/- 9.262
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 15 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 39.537 +/- 5.423
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 30 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 36.443 +/- 5.467
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 30 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 39.872 +/- 7.079
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 30 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 43.664 +/- 6.588
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 50 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 43.530 +/- 5.914
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 50 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 38.317 +/- 5.946
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 50 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 40.463 +/- 5.251
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 100 , p = 1
+Score: (95.22) +/- (1.92), Precisão média: 96.83 +/- (3.66), Recall médio: 85.68 +/- (7.12), F1 médio: 90.66 +/- (4.29), Tempo médio (ms): 41.728 +/- 9.218
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 100 , p = 2
+Score: (94.08) +/- (2.50), Precisão média: 96.04 +/- (3.71), Recall médio: 82.03 +/- (8.17), F1 médio: 88.24 +/- (5.57), Tempo médio (ms): 41.702 +/- 5.263
+Para n_neighbor = 2, weight = uniform, algorithm = brute, leaf_size = 100 , p = 3
+Score: (93.45) +/- (2.60), Precisão média: 95.49 +/- (3.56), Recall médio: 80.01 +/- (9.05), F1 médio: 86.77 +/- (6.25), Tempo médio (ms): 43.306 +/- 8.194
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 15 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 9.725 +/- 3.287
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 15 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 8.659 +/- 6.169
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 15 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 7.252 +/- 5.232
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 30 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 9.733 +/- 6.952
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 30 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 4.398 +/- 3.959
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 30 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 2.650 +/- 2.826
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 50 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 5.851 +/- 4.341
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 50 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 9.755 +/- 3.015
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 50 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 6.040 +/- 7.144
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 100 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 7.235 +/- 5.784
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 100 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 7.411 +/- 7.802
+Para n_neighbor = 2, weight = distance, algorithm = auto, leaf_size = 100 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 11.879 +/- 5.220
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 8.312 +/- 3.905
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 4.763 +/- 4.540
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 13.389 +/- 2.992
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 5.291 +/- 4.385
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 4.613 +/- 5.081
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 10.769 +/- 6.720
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 3.238 +/- 3.750
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 4.551 +/- 4.834
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 10.211 +/- 6.970
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 5.079 +/- 3.554
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 4.235 +/- 3.907
+Para n_neighbor = 2, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 11.493 +/- 4.721
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 5.674 +/- 5.452
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 4.269 +/- 5.053
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 6.128 +/- 6.625
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 5.200 +/- 7.001
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 2.551 +/- 5.168
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 9.259 +/- 6.272
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 7.097 +/- 2.438
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 12.517 +/- 7.967
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 14.096 +/- 2.566
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 9.697 +/- 2.554
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 11.907 +/- 5.269
+Para n_neighbor = 2, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 12.988 +/- 1.698
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 15 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 62.088 +/- 9.610
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 15 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 55.801 +/- 2.925
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 15 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 60.671 +/- 3.837
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 30 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 53.865 +/- 3.570
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 30 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 52.394 +/- 5.406
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 30 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 65.913 +/- 8.778
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 50 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 58.960 +/- 3.037
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 50 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 55.304 +/- 2.432
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 50 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 58.211 +/- 4.765
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 100 , p = 1
+Score: (96.35) +/- (2.93), Precisão média: 93.89 +/- (5.79), Recall médio: 92.61 +/- (5.92), F1 médio: 93.20 +/- (5.45), Tempo médio (ms): 76.097 +/- 9.240
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 100 , p = 2
+Score: (95.72) +/- (2.63), Precisão média: 93.17 +/- (6.30), Recall médio: 91.45 +/- (5.16), F1 médio: 92.18 +/- (4.76), Tempo médio (ms): 58.687 +/- 4.780
+Para n_neighbor = 2, weight = distance, algorithm = brute, leaf_size = 100 , p = 3
+Score: (95.22) +/- (2.94), Precisão média: 92.65 +/- (6.40), Recall médio: 90.16 +/- (6.45), F1 médio: 91.24 +/- (5.38), Tempo médio (ms): 57.594 +/- 4.857
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 15 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 13.977 +/- 1.048
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 15 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 13.129 +/- 1.127
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 15 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 13.002 +/- 0.774
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 30 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 12.199 +/- 0.872
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 30 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 12.530 +/- 1.851
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 30 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 13.327 +/- 0.736
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 50 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 12.115 +/- 0.693
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 50 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 11.770 +/- 0.752
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 50 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 11.937 +/- 1.699
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 100 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 11.940 +/- 1.459
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 100 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 11.406 +/- 0.809
+Para n_neighbor = 3, weight = uniform, algorithm = auto, leaf_size = 100 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 15.495 +/- 1.260
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 11.347 +/- 0.943
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 11.363 +/- 0.690
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 15.931 +/- 1.059
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 15.503 +/- 10.835
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 11.933 +/- 1.366
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 19.004 +/- 2.279
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 11.743 +/- 0.745
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 11.270 +/- 0.795
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 18.762 +/- 1.937
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 11.805 +/- 0.904
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 9.997 +/- 1.593
+Para n_neighbor = 3, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 20.028 +/- 2.060
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 11.316 +/- 1.113
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 11.508 +/- 1.356
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 12.025 +/- 0.644
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 11.588 +/- 2.005
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 10.874 +/- 0.724
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 12.146 +/- 0.724
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 14.982 +/- 6.767
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 11.436 +/- 0.560
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 14.573 +/- 2.376
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 11.452 +/- 1.029
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 11.560 +/- 1.429
+Para n_neighbor = 3, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 14.597 +/- 1.286
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 15 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 51.845 +/- 5.696
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 15 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 61.189 +/- 4.042
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 15 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 61.177 +/- 3.886
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 30 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 56.924 +/- 7.522
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 30 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 66.048 +/- 9.596
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 30 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 63.120 +/- 3.637
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 50 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 56.632 +/- 6.012
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 50 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 63.604 +/- 3.442
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 50 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 65.619 +/- 2.727
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 100 , p = 1
+Score: (94.97) +/- (3.58), Precisão média: 91.78 +/- (7.99), Recall médio: 90.12 +/- (5.96), F1 médio: 90.86 +/- (6.52), Tempo médio (ms): 56.039 +/- 7.090
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 100 , p = 2
+Score: (94.34) +/- (3.13), Precisão média: 90.58 +/- (8.05), Recall médio: 89.02 +/- (4.49), F1 médio: 89.66 +/- (5.72), Tempo médio (ms): 61.836 +/- 1.820
+Para n_neighbor = 3, weight = uniform, algorithm = brute, leaf_size = 100 , p = 3
+Score: (94.09) +/- (3.63), Precisão média: 89.90 +/- (8.35), Recall médio: 89.10 +/- (4.81), F1 médio: 89.39 +/- (6.21), Tempo médio (ms): 67.175 +/- 22.368
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 15 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 7.911 +/- 0.763
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 15 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 11.333 +/- 4.412
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 15 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 7.171 +/- 0.917
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 30 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 5.303 +/- 1.404
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 30 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 5.222 +/- 0.944
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 30 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 8.020 +/- 0.749
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 50 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 6.206 +/- 1.651
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 50 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 5.724 +/- 1.097
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 50 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 8.634 +/- 0.544
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 100 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 6.157 +/- 0.872
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 100 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 6.364 +/- 0.607
+Para n_neighbor = 3, weight = distance, algorithm = auto, leaf_size = 100 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 9.378 +/- 1.225
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 6.405 +/- 0.655
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 5.674 +/- 0.703
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 11.694 +/- 1.208
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 7.103 +/- 0.909
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 5.809 +/- 0.598
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 12.565 +/- 2.124
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 5.764 +/- 0.400
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 6.056 +/- 1.014
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 11.037 +/- 2.550
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 4.580 +/- 6.368
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 6.443 +/- 2.557
+Para n_neighbor = 3, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 9.414 +/- 5.491
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 4.998 +/- 6.483
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 5.905 +/- 7.136
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 4.817 +/- 5.168
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 3.244 +/- 4.598
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 4.942 +/- 3.939
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 6.042 +/- 6.271
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 3.254 +/- 5.867
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 3.692 +/- 6.041
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 5.349 +/- 5.781
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 4.969 +/- 5.960
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 5.022 +/- 7.340
+Para n_neighbor = 3, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 7.916 +/- 6.030
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 15 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 38.688 +/- 3.251
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 15 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 38.100 +/- 6.305
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 15 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 39.599 +/- 8.002
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 30 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 40.500 +/- 10.019
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 30 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 51.326 +/- 6.323
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 30 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 56.973 +/- 5.551
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 50 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 51.480 +/- 5.758
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 50 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 54.371 +/- 5.531
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 50 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 56.888 +/- 4.266
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 100 , p = 1
+Score: (95.72) +/- (2.64), Precisão média: 93.05 +/- (5.88), Recall médio: 91.33 +/- (5.30), F1 médio: 92.11 +/- (5.02), Tempo médio (ms): 50.615 +/- 4.096
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 100 , p = 2
+Score: (95.09) +/- (2.27), Precisão média: 91.81 +/- (5.83), Recall médio: 90.26 +/- (3.91), F1 médio: 90.96 +/- (4.29), Tempo médio (ms): 49.886 +/- 2.900
+Para n_neighbor = 3, weight = distance, algorithm = brute, leaf_size = 100 , p = 3
+Score: (94.72) +/- (3.30), Precisão média: 90.66 +/- (7.13), Recall médio: 90.32 +/- (5.10), F1 médio: 90.44 +/- (5.82), Tempo médio (ms): 53.108 +/- 5.984
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 15 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 10.071 +/- 7.181
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 15 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 11.790 +/- 7.537
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 15 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 8.623 +/- 6.849
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 30 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 7.828 +/- 6.568
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 30 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 6.049 +/- 6.068
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 30 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 13.067 +/- 5.498
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 50 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 4.924 +/- 6.246
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 50 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 11.213 +/- 6.381
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 50 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 10.915 +/- 6.256
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 100 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 5.286 +/- 8.202
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 100 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 6.103 +/- 6.000
+Para n_neighbor = 5, weight = uniform, algorithm = auto, leaf_size = 100 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 12.497 +/- 3.215
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 9.770 +/- 5.716
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 5.654 +/- 5.232
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 14.824 +/- 4.490
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 10.640 +/- 8.943
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 10.213 +/- 8.204
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 17.057 +/- 10.176
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 8.591 +/- 6.202
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 7.028 +/- 6.033
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 15.832 +/- 3.550
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 6.898 +/- 7.035
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 9.488 +/- 6.784
+Para n_neighbor = 5, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 14.081 +/- 4.797
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 6.373 +/- 7.437
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 6.190 +/- 6.507
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 8.471 +/- 6.863
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 10.558 +/- 7.870
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 9.577 +/- 6.101
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 9.737 +/- 7.186
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 9.981 +/- 6.078
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 7.473 +/- 4.863
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 11.152 +/- 6.508
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 9.811 +/- 6.099
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 12.834 +/- 5.389
+Para n_neighbor = 5, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 11.043 +/- 4.294
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 15 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 63.506 +/- 16.532
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 15 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 78.535 +/- 8.950
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 15 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 71.244 +/- 19.311
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 30 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 39.809 +/- 4.636
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 30 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 42.511 +/- 6.521
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 30 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 43.765 +/- 6.637
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 50 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 42.060 +/- 5.760
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 50 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 70.798 +/- 13.830
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 50 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 83.012 +/- 8.117
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 100 , p = 1
+Score: (94.34) +/- (3.51), Precisão média: 90.07 +/- (8.47), Recall médio: 90.39 +/- (5.65), F1 médio: 90.02 +/- (6.06), Tempo médio (ms): 67.410 +/- 18.234
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 100 , p = 2
+Score: (93.20) +/- (3.32), Precisão média: 88.49 +/- (9.06), Recall médio: 87.65 +/- (4.39), F1 médio: 87.81 +/- (5.64), Tempo médio (ms): 46.710 +/- 4.983
+Para n_neighbor = 5, weight = uniform, algorithm = brute, leaf_size = 100 , p = 3
+Score: (92.70) +/- (3.98), Precisão média: 87.57 +/- (9.24), Recall médio: 86.84 +/- (5.03), F1 médio: 87.00 +/- (6.37), Tempo médio (ms): 42.730 +/- 5.873
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 15 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 5.441 +/- 7.187
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 15 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 4.566 +/- 5.484
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 15 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 3.769 +/- 3.114
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 30 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 9.327 +/- 12.222
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 30 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 3.663 +/- 3.607
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 30 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 6.013 +/- 5.759
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 50 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 4.829 +/- 5.050
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 50 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 4.789 +/- 5.356
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 50 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 5.801 +/- 7.402
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 100 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 3.106 +/- 3.362
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 100 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 2.801 +/- 4.700
+Para n_neighbor = 5, weight = distance, algorithm = auto, leaf_size = 100 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 7.844 +/- 6.474
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 4.953 +/- 6.609
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 4.739 +/- 4.425
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 7.422 +/- 6.492
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 1.099 +/- 2.283
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 7.970 +/- 4.996
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 18.652 +/- 3.845
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 7.242 +/- 8.051
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 6.733 +/- 5.429
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 20.781 +/- 6.288
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 11.495 +/- 6.847
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 8.415 +/- 3.061
+Para n_neighbor = 5, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 25.213 +/- 7.933
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 9.416 +/- 8.649
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 8.670 +/- 6.724
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 11.097 +/- 5.680
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 6.854 +/- 6.033
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 8.109 +/- 5.434
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 11.243 +/- 4.848
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 9.068 +/- 7.181
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 1.616 +/- 4.677
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 6.539 +/- 6.699
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 4.863 +/- 6.871
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 3.074 +/- 4.567
+Para n_neighbor = 5, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 5.885 +/- 5.627
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 15 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 45.383 +/- 17.649
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 15 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 40.501 +/- 4.905
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 15 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 44.727 +/- 4.130
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 30 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 41.071 +/- 4.225
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 30 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 68.240 +/- 14.881
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 30 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 77.982 +/- 5.293
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 50 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 70.248 +/- 16.198
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 50 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 38.797 +/- 5.266
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 50 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 44.115 +/- 4.453
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 100 , p = 1
+Score: (95.22) +/- (3.17), Precisão média: 91.85 +/- (7.52), Recall médio: 91.05 +/- (5.28), F1 médio: 91.34 +/- (5.88), Tempo médio (ms): 40.081 +/- 3.874
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 100 , p = 2
+Score: (94.21) +/- (3.32), Precisão média: 90.07 +/- (8.25), Recall médio: 89.29 +/- (4.87), F1 médio: 89.52 +/- (5.84), Tempo médio (ms): 46.351 +/- 5.425
+Para n_neighbor = 5, weight = distance, algorithm = brute, leaf_size = 100 , p = 3
+Score: (94.21) +/- (3.72), Precisão média: 89.89 +/- (8.36), Recall médio: 89.33 +/- (5.82), F1 médio: 89.49 +/- (6.57), Tempo médio (ms): 54.088 +/- 5.309
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 15 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 15.359 +/- 3.024
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 15 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 9.074 +/- 7.580
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 15 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 8.602 +/- 5.737
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 30 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 9.325 +/- 7.159
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 30 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 10.622 +/- 7.154
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 30 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 9.584 +/- 6.360
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 50 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 7.694 +/- 7.508
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 50 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 10.181 +/- 6.840
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 50 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 10.846 +/- 6.775
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 100 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 8.873 +/- 7.397
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 100 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 4.808 +/- 5.801
+Para n_neighbor = 7, weight = uniform, algorithm = auto, leaf_size = 100 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 9.133 +/- 8.418
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 15.286 +/- 9.871
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 9.586 +/- 7.725
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 12.790 +/- 4.422
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 5.391 +/- 7.355
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 10.153 +/- 6.343
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 14.554 +/- 5.176
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 4.873 +/- 7.459
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 5.696 +/- 5.255
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 13.953 +/- 3.160
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 12.655 +/- 6.305
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 17.997 +/- 4.941
+Para n_neighbor = 7, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 28.996 +/- 4.599
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 15.861 +/- 4.110
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 15.123 +/- 4.724
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 22.708 +/- 5.646
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 15.968 +/- 4.895
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 17.425 +/- 4.940
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 18.046 +/- 4.839
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 16.667 +/- 7.280
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 7.169 +/- 7.125
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 8.315 +/- 6.699
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 14.491 +/- 4.014
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 12.716 +/- 4.948
+Para n_neighbor = 7, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 11.521 +/- 5.890
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 15 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 41.702 +/- 4.646
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 15 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 43.474 +/- 6.377
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 15 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 42.709 +/- 6.013
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 30 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 59.354 +/- 14.658
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 30 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 79.631 +/- 9.269
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 30 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 71.151 +/- 22.069
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 50 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 41.565 +/- 4.796
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 50 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 45.247 +/- 6.353
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 50 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 46.868 +/- 6.917
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 100 , p = 1
+Score: (92.96) +/- (3.55), Precisão média: 88.41 +/- (7.20), Recall médio: 86.17 +/- (7.38), F1 médio: 87.12 +/- (6.48), Tempo médio (ms): 41.805 +/- 5.541
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 100 , p = 2
+Score: (91.82) +/- (3.56), Precisão média: 85.09 +/- (7.86), Recall médio: 85.35 +/- (6.23), F1 médio: 85.14 +/- (6.76), Tempo médio (ms): 64.308 +/- 18.657
+Para n_neighbor = 7, weight = uniform, algorithm = brute, leaf_size = 100 , p = 3
+Score: (90.56) +/- (3.76), Precisão média: 82.39 +/- (7.19), Recall médio: 84.05 +/- (7.68), F1 médio: 83.09 +/- (6.91), Tempo médio (ms): 86.049 +/- 6.532
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 15 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 10.766 +/- 5.533
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 15 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 9.751 +/- 8.396
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 15 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 11.307 +/- 4.371
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 30 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 9.122 +/- 6.497
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 30 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 6.357 +/- 6.934
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 30 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 10.000 +/- 6.666
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 50 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 3.229 +/- 5.069
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 50 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 4.623 +/- 5.575
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 50 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 5.966 +/- 5.367
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 100 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 3.573 +/- 4.067
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 100 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 4.370 +/- 4.926
+Para n_neighbor = 7, weight = distance, algorithm = auto, leaf_size = 100 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 10.007 +/- 7.271
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 2.662 +/- 2.136
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 4.767 +/- 5.508
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 15.785 +/- 4.097
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 4.283 +/- 6.444
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 5.736 +/- 5.273
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 10.345 +/- 11.346
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 4.096 +/- 5.932
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 4.155 +/- 6.259
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 9.392 +/- 6.843
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 4.930 +/- 5.652
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 3.242 +/- 4.211
+Para n_neighbor = 7, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 11.011 +/- 6.190
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 4.855 +/- 7.523
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 4.242 +/- 5.500
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 4.066 +/- 3.924
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 2.058 +/- 1.800
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 2.305 +/- 2.192
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 3.801 +/- 3.013
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 5.248 +/- 4.551
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 2.984 +/- 2.849
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 7.089 +/- 4.507
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 3.798 +/- 3.143
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 3.085 +/- 3.291
+Para n_neighbor = 7, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 8.392 +/- 5.543
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 15 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 68.471 +/- 15.907
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 15 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 77.414 +/- 7.207
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 15 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 74.054 +/- 19.788
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 30 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 41.444 +/- 6.806
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 30 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 38.365 +/- 5.890
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 30 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 43.652 +/- 8.500
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 50 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 42.279 +/- 3.381
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 50 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 56.061 +/- 19.193
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 50 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 81.794 +/- 7.367
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 100 , p = 1
+Score: (95.34) +/- (2.70), Precisão média: 91.70 +/- (7.22), Recall médio: 92.03 +/- (4.79), F1 médio: 91.67 +/- (4.83), Tempo médio (ms): 77.596 +/- 6.133
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 100 , p = 2
+Score: (94.21) +/- (3.50), Precisão média: 90.64 +/- (8.63), Recall médio: 88.36 +/- (5.03), F1 médio: 89.36 +/- (6.39), Tempo médio (ms): 46.722 +/- 13.511
+Para n_neighbor = 7, weight = distance, algorithm = brute, leaf_size = 100 , p = 3
+Score: (92.95) +/- (3.89), Precisão média: 88.40 +/- (9.37), Recall médio: 86.10 +/- (5.72), F1 médio: 87.13 +/- (7.20), Tempo médio (ms): 48.455 +/- 12.259
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 15 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 8.108 +/- 7.315
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 15 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 12.757 +/- 8.114
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 15 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 8.433 +/- 3.167
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 30 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 6.604 +/- 6.712
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 30 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 5.917 +/- 6.943
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 30 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 8.596 +/- 6.794
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 50 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 11.780 +/- 5.107
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 50 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 8.640 +/- 6.558
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 50 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 13.045 +/- 8.769
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 100 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 13.627 +/- 3.429
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 100 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 6.423 +/- 6.702
+Para n_neighbor = 10, weight = uniform, algorithm = auto, leaf_size = 100 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 12.143 +/- 6.020
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 17.871 +/- 4.954
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 17.473 +/- 5.013
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 25.850 +/- 7.266
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 17.674 +/- 4.199
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 19.308 +/- 4.096
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 27.885 +/- 7.381
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 17.505 +/- 4.895
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 16.359 +/- 5.775
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 30.160 +/- 8.055
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 2.580 +/- 5.398
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 9.544 +/- 7.076
+Para n_neighbor = 10, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 14.707 +/- 1.385
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 9.222 +/- 6.868
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 5.750 +/- 6.201
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 10.071 +/- 8.427
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 11.263 +/- 6.937
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 4.795 +/- 5.915
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 8.503 +/- 4.991
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 10.175 +/- 6.463
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 12.340 +/- 6.585
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 13.465 +/- 8.961
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 1.613 +/- 4.673
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 13.497 +/- 3.309
+Para n_neighbor = 10, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 13.209 +/- 4.742
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 15 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 40.002 +/- 5.047
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 15 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 83.992 +/- 4.627
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 15 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 80.300 +/- 7.880
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 30 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 55.611 +/- 16.158
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 30 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 45.436 +/- 5.348
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 30 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 43.655 +/- 4.340
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 50 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 42.488 +/- 7.338
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 50 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 41.703 +/- 5.085
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 50 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 81.477 +/- 5.047
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 100 , p = 1
+Score: (91.32) +/- (3.77), Precisão média: 88.67 +/- (8.18), Recall médio: 79.78 +/- (10.10), F1 médio: 83.55 +/- (7.33), Tempo médio (ms): 76.037 +/- 9.493
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 100 , p = 2
+Score: (89.55) +/- (3.72), Precisão média: 82.87 +/- (7.48), Recall médio: 78.70 +/- (10.18), F1 médio: 80.42 +/- (7.61), Tempo médio (ms): 60.390 +/- 17.120
+Para n_neighbor = 10, weight = uniform, algorithm = brute, leaf_size = 100 , p = 3
+Score: (88.67) +/- (3.25), Precisão média: 81.01 +/- (6.65), Recall médio: 77.63 +/- (10.90), F1 médio: 78.80 +/- (6.81), Tempo médio (ms): 42.832 +/- 6.008
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 15 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 4.860 +/- 6.986
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 15 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 6.555 +/- 6.291
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 15 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 6.379 +/- 5.698
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 30 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 6.074 +/- 5.787
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 30 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 6.032 +/- 7.292
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 30 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 6.198 +/- 6.561
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 50 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 4.426 +/- 5.813
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 50 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 3.945 +/- 7.010
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 50 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 9.496 +/- 6.415
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 100 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 3.682 +/- 5.745
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 100 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 3.666 +/- 3.667
+Para n_neighbor = 10, weight = distance, algorithm = auto, leaf_size = 100 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 8.386 +/- 6.277
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 3.466 +/- 5.015
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 4.455 +/- 4.172
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 7.105 +/- 5.949
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 5.275 +/- 7.085
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 7.314 +/- 5.950
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 9.747 +/- 7.859
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 3.733 +/- 6.125
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 3.705 +/- 3.783
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 20.763 +/- 7.129
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 12.262 +/- 8.086
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 9.639 +/- 5.545
+Para n_neighbor = 10, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 23.840 +/- 8.946
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 7.512 +/- 5.892
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 7.902 +/- 6.748
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 10.233 +/- 6.574
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 8.872 +/- 7.196
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 10.537 +/- 7.400
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 9.914 +/- 5.588
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 8.176 +/- 2.847
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 7.502 +/- 5.592
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 11.512 +/- 9.645
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 5.652 +/- 5.796
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 7.294 +/- 6.398
+Para n_neighbor = 10, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 10.264 +/- 5.158
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 15 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 42.507 +/- 7.465
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 15 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 40.182 +/- 5.565
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 15 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 47.851 +/- 5.332
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 30 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 38.143 +/- 4.736
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 30 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 56.513 +/- 19.227
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 30 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 81.202 +/- 7.757
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 50 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 70.995 +/- 5.831
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 50 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 50.307 +/- 11.972
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 50 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 47.442 +/- 5.622
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 100 , p = 1
+Score: (94.21) +/- (3.74), Precisão média: 90.56 +/- (9.59), Recall médio: 88.84 +/- (5.46), F1 médio: 89.51 +/- (7.00), Tempo médio (ms): 41.223 +/- 6.545
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 100 , p = 2
+Score: (92.70) +/- (3.81), Precisão média: 86.76 +/- (9.21), Recall médio: 86.95 +/- (6.35), F1 médio: 86.70 +/- (7.25), Tempo médio (ms): 42.221 +/- 4.067
+Para n_neighbor = 10, weight = distance, algorithm = brute, leaf_size = 100 , p = 3
+Score: (92.07) +/- (3.80), Precisão média: 85.57 +/- (8.50), Recall médio: 86.15 +/- (6.73), F1 médio: 85.71 +/- (6.95), Tempo médio (ms): 42.384 +/- 4.314
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 15 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 10.193 +/- 8.627
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 15 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 16.033 +/- 6.358
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 15 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 18.388 +/- 6.235
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 30 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 16.854 +/- 3.197
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 30 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 19.546 +/- 5.333
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 30 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 21.102 +/- 6.773
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 50 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 15.614 +/- 4.549
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 50 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 16.634 +/- 5.210
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 50 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 21.283 +/- 6.742
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 100 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 17.097 +/- 4.812
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 100 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 13.753 +/- 7.914
+Para n_neighbor = 15, weight = uniform, algorithm = auto, leaf_size = 100 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 14.682 +/- 3.172
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 12.667 +/- 8.540
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 6.938 +/- 6.864
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 10.963 +/- 6.915
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 9.614 +/- 7.937
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 8.598 +/- 6.303
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 13.074 +/- 4.105
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 2.226 +/- 5.057
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 11.432 +/- 5.717
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 15.540 +/- 4.072
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 9.759 +/- 6.128
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 9.341 +/- 7.241
+Para n_neighbor = 15, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 15.060 +/- 3.345
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 11.546 +/- 6.584
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 5.249 +/- 6.147
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 9.607 +/- 6.429
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 8.374 +/- 6.973
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 13.794 +/- 4.998
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 20.357 +/- 3.454
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 15.688 +/- 4.724
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 16.370 +/- 6.699
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 18.409 +/- 4.679
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 16.937 +/- 5.012
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 16.023 +/- 6.094
+Para n_neighbor = 15, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 28.879 +/- 4.457
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 15 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 60.403 +/- 16.075
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 15 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 44.138 +/- 4.597
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 15 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 47.797 +/- 5.534
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 30 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 41.182 +/- 4.356
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 30 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 45.465 +/- 7.463
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 30 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 74.808 +/- 16.435
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 50 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 71.977 +/- 6.380
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 50 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 68.159 +/- 15.916
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 50 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 50.747 +/- 14.434
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 100 , p = 1
+Score: (91.31) +/- (4.00), Precisão média: 85.18 +/- (9.88), Recall médio: 84.48 +/- (9.89), F1 médio: 84.32 +/- (7.60), Tempo médio (ms): 45.497 +/- 3.608
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 100 , p = 2
+Score: (89.67) +/- (4.09), Precisão média: 81.04 +/- (9.01), Recall médio: 81.34 +/- (12.46), F1 médio: 80.72 +/- (9.20), Tempo médio (ms): 47.240 +/- 7.111
+Para n_neighbor = 15, weight = uniform, algorithm = brute, leaf_size = 100 , p = 3
+Score: (88.79) +/- (3.41), Precisão média: 78.73 +/- (8.75), Recall médio: 80.93 +/- (11.87), F1 médio: 79.35 +/- (8.48), Tempo médio (ms): 47.218 +/- 4.187
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 15 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 5.959 +/- 6.588
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 15 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 6.160 +/- 5.693
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 15 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 10.916 +/- 5.999
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 30 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 12.377 +/- 6.915
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 30 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 7.719 +/- 7.357
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 30 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 12.396 +/- 6.662
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 50 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 9.652 +/- 6.396
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 50 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 8.750 +/- 6.345
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 50 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 15.037 +/- 5.376
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 100 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 9.102 +/- 6.409
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 100 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 8.252 +/- 6.856
+Para n_neighbor = 15, weight = distance, algorithm = auto, leaf_size = 100 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 14.193 +/- 4.683
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 6.705 +/- 7.405
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 10.985 +/- 5.523
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 18.743 +/- 5.088
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 9.653 +/- 7.381
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 12.003 +/- 5.162
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 6.145 +/- 5.530
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 5.207 +/- 7.174
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 6.149 +/- 5.548
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 9.249 +/- 7.439
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 5.812 +/- 6.398
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 4.022 +/- 5.189
+Para n_neighbor = 15, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 13.842 +/- 5.709
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 5.068 +/- 7.003
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 5.107 +/- 6.187
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 4.381 +/- 5.728
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 6.061 +/- 6.360
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 3.431 +/- 3.749
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 4.666 +/- 6.276
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 3.346 +/- 4.184
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 5.836 +/- 4.917
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 5.367 +/- 5.878
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 7.164 +/- 6.422
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 5.405 +/- 6.121
+Para n_neighbor = 15, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 9.965 +/- 5.237
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 15 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 42.005 +/- 7.735
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 15 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 52.649 +/- 11.846
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 15 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 93.886 +/- 27.926
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 30 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 80.248 +/- 5.997
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 30 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 52.917 +/- 17.138
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 30 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 45.391 +/- 5.795
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 50 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 42.070 +/- 4.495
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 50 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 42.984 +/- 4.550
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 50 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 47.526 +/- 6.791
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 100 , p = 1
+Score: (93.58) +/- (3.58), Precisão média: 88.29 +/- (8.49), Recall médio: 88.57 +/- (6.48), F1 médio: 88.31 +/- (6.94), Tempo médio (ms): 74.506 +/- 5.800
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 100 , p = 2
+Score: (92.07) +/- (3.81), Precisão média: 85.38 +/- (8.40), Recall médio: 86.30 +/- (7.83), F1 médio: 85.63 +/- (7.14), Tempo médio (ms): 77.578 +/- 5.651
+Para n_neighbor = 15, weight = distance, algorithm = brute, leaf_size = 100 , p = 3
+Score: (91.57) +/- (4.01), Precisão média: 84.52 +/- (8.89), Recall médio: 85.26 +/- (8.83), F1 médio: 84.61 +/- (7.71), Tempo médio (ms): 82.124 +/- 6.250
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 15 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 19.228 +/- 6.332
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 15 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 19.244 +/- 6.017
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 15 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 10.536 +/- 7.824
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 30 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 9.970 +/- 6.368
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 30 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 8.829 +/- 7.454
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 30 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 12.538 +/- 6.109
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 50 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 6.504 +/- 7.631
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 50 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 6.686 +/- 6.605
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 50 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 10.758 +/- 8.723
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 100 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 5.354 +/- 7.121
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 100 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 9.651 +/- 8.374
+Para n_neighbor = 20, weight = uniform, algorithm = auto, leaf_size = 100 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 12.035 +/- 6.396
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 5.817 +/- 7.222
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 10.682 +/- 5.864
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 13.239 +/- 4.536
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 11.828 +/- 7.395
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 9.690 +/- 6.791
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 16.292 +/- 5.379
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 9.502 +/- 7.265
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 5.013 +/- 6.033
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 19.351 +/- 9.767
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 17.423 +/- 4.773
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 17.228 +/- 2.751
+Para n_neighbor = 20, weight = uniform, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 29.926 +/- 6.010
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 14.487 +/- 3.839
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 17.231 +/- 6.198
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 24.279 +/- 10.533
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 17.755 +/- 4.635
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 17.180 +/- 6.212
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 17.211 +/- 8.822
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 9.295 +/- 7.920
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 6.893 +/- 6.554
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 14.102 +/- 5.006
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 8.355 +/- 6.704
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 8.634 +/- 5.764
+Para n_neighbor = 20, weight = uniform, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 13.841 +/- 7.853
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 15 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 44.066 +/- 9.619
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 15 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 50.368 +/- 6.297
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 15 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 46.165 +/- 5.328
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 30 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 76.174 +/- 6.904
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 30 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 83.406 +/- 4.989
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 30 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 58.049 +/- 19.977
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 50 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 41.311 +/- 5.735
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 50 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 50.533 +/- 7.313
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 50 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 48.345 +/- 6.580
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 100 , p = 1
+Score: (90.93) +/- (3.23), Precisão média: 87.09 +/- (8.74), Recall médio: 79.52 +/- (8.92), F1 médio: 82.75 +/- (6.80), Tempo médio (ms): 43.616 +/- 7.379
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 100 , p = 2
+Score: (88.41) +/- (3.18), Precisão média: 80.94 +/- (11.07), Recall médio: 75.99 +/- (13.17), F1 médio: 77.55 +/- (9.24), Tempo médio (ms): 81.869 +/- 6.102
+Para n_neighbor = 20, weight = uniform, algorithm = brute, leaf_size = 100 , p = 3
+Score: (88.03) +/- (3.10), Precisão média: 79.30 +/- (9.79), Recall médio: 76.36 +/- (12.89), F1 médio: 77.14 +/- (9.02), Tempo médio (ms): 84.977 +/- 9.691
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 15 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 8.544 +/- 6.398
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 15 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 9.110 +/- 7.956
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 15 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 13.848 +/- 6.389
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 30 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 3.648 +/- 4.684
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 30 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 4.958 +/- 3.746
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 30 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 3.512 +/- 5.063
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 50 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 3.802 +/- 5.583
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 50 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 7.575 +/- 10.867
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 50 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 6.729 +/- 7.524
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 100 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 4.462 +/- 6.878
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 100 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 6.294 +/- 6.229
+Para n_neighbor = 20, weight = distance, algorithm = auto, leaf_size = 100 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 6.254 +/- 4.665
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 5.561 +/- 7.073
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 3.979 +/- 3.555
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 15 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 8.948 +/- 6.315
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 4.879 +/- 6.730
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 5.460 +/- 4.645
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 30 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 10.568 +/- 6.873
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 4.166 +/- 6.135
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 5.884 +/- 6.072
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 50 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 10.885 +/- 7.519
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 6.002 +/- 6.613
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 3.230 +/- 3.109
+Para n_neighbor = 20, weight = distance, algorithm = ball_tree, leaf_size = 100 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 11.173 +/- 6.542
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 6.504 +/- 8.081
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 5.138 +/- 6.810
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 15 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 6.327 +/- 7.112
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 3.926 +/- 4.375
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 5.390 +/- 6.431
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 30 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 6.795 +/- 6.741
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 3.426 +/- 4.304
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 4.107 +/- 4.245
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 50 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 10.740 +/- 7.007
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 10.045 +/- 5.552
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 8.583 +/- 6.719
+Para n_neighbor = 20, weight = distance, algorithm = kd_tree, leaf_size = 100 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 15.775 +/- 4.621
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 15 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 72.732 +/- 6.620
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 15 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 69.168 +/- 4.870
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 15 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 49.783 +/- 12.326
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 30 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 44.279 +/- 7.254
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 30 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 41.597 +/- 5.885
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 30 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 47.941 +/- 7.643
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 50 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 47.927 +/- 13.425
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 50 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 79.133 +/- 6.112
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 50 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 84.846 +/- 3.366
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 100 , p = 1
+Score: (92.70) +/- (3.46), Precisão média: 88.03 +/- (8.20), Recall médio: 85.59 +/- (7.22), F1 médio: 86.59 +/- (6.67), Tempo médio (ms): 77.836 +/- 7.596
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 100 , p = 2
+Score: (91.06) +/- (3.91), Precisão média: 83.93 +/- (9.10), Recall médio: 84.62 +/- (7.83), F1 médio: 83.95 +/- (7.08), Tempo médio (ms): 52.325 +/- 18.682
+Para n_neighbor = 20, weight = distance, algorithm = brute, leaf_size = 100 , p = 3
+Score: (91.06) +/- (3.75), Precisão média: 83.52 +/- (8.91), Recall médio: 84.76 +/- (8.10), F1 médio: 83.83 +/- (7.20), Tempo médio (ms): 45.930 +/- 3.827
