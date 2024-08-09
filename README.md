@@ -1,1 +1,1 @@
-# Identifica-o-Inteligente-LOS-NLOS-LoRaWAN-UFJF
+# Identificação Inteligente LOS/NLOS LoRaWAN UFJF
